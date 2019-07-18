@@ -1,5 +1,2 @@
-this is an example text 
+this is an repo containing few basic algorithms and their implementation in CPP
 
-
-
-world is a strange place 
