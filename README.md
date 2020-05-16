@@ -4,11 +4,12 @@ What does it contain ??
     
      Sorting and searching allgorithms implemented in C++
   
-#2  Programs to print Patterns of star(*)
+#2  Programs to print Patterns 
   
     to print a star pattern in a triangle form and so on...
  
 #3 Linked List
     
      Linked list implementation with operation on them
+     
 
