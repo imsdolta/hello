@@ -1,10 +1,11 @@
+// Implement an algorithm to determine if a string has all unique characters. 
+
+
 #include<bits/stdc++.h>
 using namespace std;
-// Implement an algorithm to determine if a string has all unique characters. What if you
-// cannot use additional data structures?
 
-//how i solve it
-/*1.  put all chars in s set
+//1.  put all chars in s set
+void findUniqueCharaters()
  {
 	string str ="sachinnn";
 	if(str.size-1 > 128)
@@ -15,9 +16,12 @@ using namespace std;
 	}
 	for(auto a: set) cout<<a;
  }
-*/
-/*
-2. string str = "sachin";
+
+
+//2. Brute force
+void findUniqueCharaters(){
+
+ 	string str = "sachin";
 	int n = str.size();
 
 	for(int i=0; i<n; i++){
@@ -32,10 +36,11 @@ using namespace std;
 		}
 	}
 	cout<<"yes";
-*/
+}
+
 int main(int argc, char const *argv[])
 {
 	
-	
+	findUniqueCharaters();
 	return 0;
 }
