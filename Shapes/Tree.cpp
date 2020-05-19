@@ -1,3 +1,12 @@
+/*
+Program for displaying a tree(Xmas) like structure 
+
+    e.g       *
+            *   *
+          *   *   *
+*/
+
+
 #include<iostream>
 using namespace std;
 int main()
